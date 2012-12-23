@@ -1,5 +1,5 @@
 //This will change the "print" command in the code to "console.log" if "print"  
-//is undefined.
+//is undefined. This is rather advanced so dont worry about it till later.
 if (typeof print == 'undefined') {
   print = function(msg) { console.log(msg); }
 }
